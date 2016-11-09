@@ -1,0 +1,12 @@
+/**index.wxss**/
+input{
+  border:1px solid #ccc;
+  width:90%;
+  margin: 5%;
+  padding: 5px;
+  }
+  .expressInfo{
+    margin-top:2%;
+    width:90%;
+    background:lavender;
+  }

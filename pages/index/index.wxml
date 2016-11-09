@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+   <input placeholder="请输入一个快递单号" bindinput="input"/>
+   <button type="primary" bindtap="btnClick"> 查询 </button>
+      <view wx:for="{{expressInfo.data}}"  class="expressInfo">
+        {{item.context}}
+        【{{item.time}}】
+      </view>
+</view>
